@@ -19,7 +19,7 @@ public class RunApplication {
         System.out.println("Enter the store: ");
         String store = scanner.nextLine();
         
-        System.out.println("Enter the total sales of " + consoleType + "for " + store + ": ");
+        System.out.println("Enter the total sales of " + consoleType + " for " + store + ": ");
         int totalSales = scanner.nextInt();
         
         ConsoleSales sales = new ConsoleSales(consoleType, store, totalSales);
